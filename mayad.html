@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title> salah abu snaineh</title>
+    <link rel="stylesheet" href="css/style2.css"> 
+
+<style>
+        body {
+    background-image: url("home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+        th, td {
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: skyblue;
+            color: black;
+        }
+
+        .skyblue {
+            background-color: green;
+        }
+
+        .red {
+            background-color: red;
+        }
+        .toggle-button {
+        width: 120px; /* Specify the desired width */
+        height: 40px; /* Specify the desired height */
+        padding: 0;
+        margin: 0;
+        border: 1;
+        outline: none;
+    }
+    .large-button {
+    width: 120px;
+    height: 50px;
+}
+#mytable {
+    background-color: white;
+    border-collapse: collapse;
+  }
+  .form-control {
+    background-color: rgb(254, 54, 54);
+    color: black;
+    height: 60px;
+    border: 2;
+    border-color: white; 
+    font-size:50px;
+  }
+  .form-control1 {
+    background-color: white;
+    color: black;
+    height: 40px;
+    border: 2;
+    border-color: white; 
+    font-size: 27px;
+  }
+  .note-box {
+    background-color: red;
+    padding: 10px;
+    display: inline-block;
+    height: 27px;
+    border-color: black;
+    border: 5;
+  }
+  
+  .note-label {
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .text-next-to-table {
+    display: inline-block;
+    margin-left: 20px;
+  }
+    </style>
+
+
+
+</head>
+<body>  
+    
+    <br> 
+    <br> 
+    <table width="100%" border = "1" bgcolor="white"  >
+        <tr bgcolor="skyblue">
+            <td bgcolor="white"> </td>
+            <th width="100"><span style="font-size: 27px;">استلام</span></th>
+            <th width="100"><span style="font-size: 27px;">توصيل</span></th> 
+            <th width="100"><span style="font-size: 27px;">ودجز</span></th>
+            <th width="100"><span style="font-size: 27px;">كيرلي</span></th>
+            <th width="100"><span style="font-size: 27px;">كولا</span></th>
+            <th width="100"><span style="font-size: 27px;">سبرايت</span></th>
+            <th width="100"><span style="font-size: 27px;">كولا زيرو</span></th>
+            <th width="100"><span style="font-size: 27px;">سبرايت زيرو</span> </th>
+            <th width="100"><span style="font-size: 27px;">فانتا</span></th>
+            <th width="100"><span style="font-size: 27px;">ماء</span></th>
+            <th width="100"><span style="font-size: 27px;">كولسلو</span></th>
+            <th width="100"><span style="font-size: 27px;">فيزا</span></th>
+            
+
+        </tr>
+        <tr bgcolor="white" align="center">
+            <td height="30" bgcolor="white" font-size: 30px;>
+                <div class="index">
+                    <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">غوشه</span></button>
+                </div> 
+                       
+        </td>
+            <td> <input type="text" class="form-control1" name="name" id="myinput" placeholder="    20M" size="5" style="font-weight: bold; color: black; "></td>
+            <td bgcolor="white"><input type="text" class="form-control1" name="name" id="myinput" placeholder="    1:00" size="5" style="font-weight: bold; color: black; "></td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">غوشه</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">غوشه</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">غوشه</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">غوشه</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">غوشه</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">غوشه</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">غوشه</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">غوشه</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">غوشه</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">غوشه</span></button>
+            </div>
+            </td>
+
+        </tr>
+        <tr bgcolor="white" align="center">
+            <td height="30" bgcolor="white" font-size: 30px;>
+                <div class="index">
+                    <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">مقابلين </span></button>
+                </div> 
+                       
+        </td>
+            <td> <input type="text" class="form-control1" name="name" id="myinput" placeholder="    20M" size="5" style="font-weight: bold; color: black; "></td>
+            <td><input type="text" class="form-control1" name="name" id="myinput" placeholder="    1:00" size="5" style="font-weight: bold; color: black; "> </td>
+            <td><div class="index">
+                    <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">مقابلين</span></button>
+                </div></button>
+</td>
+<td><div class="index">
+    <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">مقابلين</span></button>
+</div>
+</td>
+<td><div class="index">
+    <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">مقابلين</span></button>
+</div>
+</td>
+<td><div class="index">
+    <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">مقابلين</span></button>
+</div>
+</td>
+<td><div class="index">
+    <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">مقابلين</span></button>
+</div>
+</td>
+<td><div class="index">
+    <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">مقابلين</span></button>
+</div>
+</td>
+<td><div class="index">
+    <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">مقابلين</span></button>
+</div>
+</td>
+<td><div class="index">
+    <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">مقابلين</span></button>
+</div>
+</td>
+<td><div class="index">
+    <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">مقابلين</span></button>
+</div>
+</td>
+<td><div class="index">
+    <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">مقابلين</span></button>
+</div>
+</td>
+            
+        </tr>
+        <tr bgcolor="white" align="center">
+            <td height="30" bgcolor="white" font-size: 30px;>
+                <div class="index">
+                    <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">عبدون</span></button>
+                </div> 
+                       
+        </td>
+            <td> <input type="text" class="form-control1" name="name" id="myinput" placeholder="    20M" size="5" style="font-weight: bold; color: black; "></td>
+            <td><input type="text" class="form-control1" name="name" id="myinput" placeholder="    1:00" size="5" style="font-weight: bold; color: black; "> </td>
+        </td>
+        <td><div class="index">
+            <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">عبدون</span></button>
+        </div>
+        </td>
+        <td><div class="index">
+            <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">عبدون</span></button>
+        </div>
+        </td>
+        <td><div class="index">
+            <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">عبدون</span></button>
+        </div>
+        </td>
+        <td><div class="index">
+            <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">عبدون</span></button>
+        </div>
+        </td>
+        <td><div class="index">
+            <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">عبدون</span></button>
+        </div>
+        </td>
+        <td><div class="index">
+            <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">عبدون</span></button>
+        </div>
+        </td>
+        <td><div class="index">
+            <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">عبدون</span></button>
+        </div>
+        </td>
+        <td><div class="index">
+            <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">عبدون</span></button>
+        </div>
+        </td>
+        <td><div class="index">
+            <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">عبدون</span></button>
+        </div>
+        </td>
+        <td><div class="index">
+            <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">عبدون</span></button>
+        </div>
+        </td>
+            
+        </tr>
+        <tr bgcolor="white" align="center">
+            <td height="30" bgcolor="white" font-size: 30px;>
+                <div class="index">
+                    <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">مدينه</span></button>
+                </div> 
+                       
+        </td>
+            <td> <input type="text" class="form-control1" name="name" id="myinput" placeholder="    20M" size="5" style="font-weight: bold; color: black; "></td>
+            <td><input type="text" class="form-control1" name="name" id="myinput" placeholder="    1:00" size="5" style="font-weight: bold; color: black; "> </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">مدينه</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">مدينه</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">مدينه</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">مدينه</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">مدينه</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">مدينه</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">مدينه</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">مدينه</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">مدينه</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">مدينه</span></button>
+            </div>
+            </td>
+            
+        </tr>
+        <tr bgcolor="white" align="center">
+            <td height="30" bgcolor="white" font-size: 30px;>
+                <div class="index">
+                    <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">المرج</span></button>
+                </div> 
+                       
+        </td>
+            <td> <input type="text" class="form-control1" name="name" id="myinput" placeholder="    20M" size="5" style="font-weight: bold; color: black; "></td>
+            <td bgcolor="white">  <input type="text" class="form-control1" name="name" id="myinput" placeholder="    1:00" size="5" style="font-weight: bold; color: black; "></td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">المرج</span></button>
+            </div>
+            </td>
+            <td bgcolor="white"><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">المرج</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">المرج</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">المرج</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">المرج</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">المرج</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">المرج</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">المرج</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">المرج</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">المرج</span></button>
+            </div>
+            </td>
+            
+        </tr>
+        <tr bgcolor="white" align="center">
+            <td height="30" bgcolor="white" font-size: 30px;>
+                <div class="index">
+                    <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">السلط</span></button>
+                </div> 
+                       
+        </td>
+            <td> <input type="text" class="form-control1" name="name" id="myinput" placeholder="    20M" size="5" style="font-weight: bold; color: black; "></td>
+            <td><input type="text" class="form-control1" name="name" id="myinput" placeholder="    1:00" size="5" style="font-weight: bold; color: black; "></td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">السلط</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">السلط</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">السلط</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">السلط</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">السلط</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">السلط</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">السلط</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">السلط</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">السلط</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">السلط</span></button>
+            </div>
+            </td>
+            
+        </tr>
+        <tr bgcolor="white" align="center">
+            <td height="30" bgcolor="white" font-size: 30px;>
+                <div class="index">
+                    <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">صويفيه</span></button>
+                </div> 
+                       
+        </td>
+            <td> <input type="text" class="form-control1" name="name" id="myinput" placeholder="    20M" size="5" style="font-weight: bold; color: black; "></td>
+            <td><input type="text" class="form-control1" name="name" id="myinput" placeholder="    1:00" size="5" style="font-weight: bold; color: black; "> </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">صوفيه</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">صوفيه</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">صوفيه</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">صوفيه</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">صوفيه</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">صوفيه</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">صوفيه</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">صوفيه</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">صوفيه</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">صوفيه</span></button>
+            </div>
+            </td>
+            
+        </tr>
+        <tr bgcolor="white" align="center">
+            <td height="30" bgcolor="white" font-size: 30px;>
+                <div class="index">
+                    <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">الرينبو</span></button>
+                </div> 
+                       
+        </td>
+            <td> <input type="text" class="form-control1" name="name" id="myinput" placeholder="    20M" size="5" style="font-weight: bold; color: black; "></td>
+            <td><input type="text" class="form-control1" name="name" id="myinput" placeholder="    1:00" size="5" style="font-weight: bold; color: black; "> </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">الرينبو</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">الرينبو</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">الرينبو</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">الرينبو</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">الرينبو</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">الرينبو</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">الرينبو</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">الرينبو</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">الرينبو</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">الرينبو</span></button>
+            </div>
+            </td>
+        <tr bgcolor="white" align="center">
+            <td height="30" bgcolor="white" font-size: 30px;>
+                <div class="index">
+                    <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">اللويبده</span></button>
+                </div> 
+                       
+        </td>
+            <td> <input type="text" class="form-control1" name="name" id="myinput" placeholder="    20M" size="5" style="font-weight: bold; color: black; "></td>
+            <td><input type="text" class="form-control1" name="name" id="myinput" placeholder="    1:00" size="5" style="font-weight: bold; color: black; "> </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">اللويبده</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">اللويبده</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">اللويبده</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">اللويبده</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">اللويبده</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">اللويبده</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">اللويبده</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">اللويبده</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">اللويبده</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">اللويبده</span></button>
+            </div>
+            </td>
+        </tr>
+        <tr bgcolor="white" align="center">
+            <td height="30" bgcolor="white" font-size: 30px;>
+                <div class="index">
+                    <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">طبربور</span></button>
+                </div> 
+                       
+        </td>
+            <td> <input type="text" class="form-control1" name="name" id="myinput" placeholder="    20M" size="5" style="font-weight: bold; color: black; "></td>
+            <td><input type="text" class="form-control1" name="name" id="myinput" placeholder="    1:00" size="5" style="font-weight: bold; color: black; "> </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">طبربور</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">طبربور</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">طبربور</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">طبربور</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">طبربور</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">طبربور</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">طبربور</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">طبربور</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">طبربور</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">طبربور</span></button>
+            </div>
+            </td>
+        </tr>   
+        
+            
+        <tr bgcolor="white" align="center">
+            <td height="30" bgcolor="white" font-size: 30px;>
+                <div class="index">
+                    <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">الداوود</span></button>
+                </div> 
+                       
+        </td>
+            <td> <input type="text" class="form-control1" name="name" id="myinput" placeholder="    20M" size="5" style="font-weight: bold; color: black; "></td>
+            <td><input type="text" class="form-control1" name="name" id="myinput" placeholder="    1:00" size="5" style="font-weight: bold; color: black; "> </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">الداوود</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">الداوود</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">الداوود</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">الداوود</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">الداوود</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">الداوود</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">الداوود</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">الداوود</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">الداوود</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">الداوود</span></button>
+            </div>
+            </td>
+        </tr>   
+        <tr bgcolor="white" align="center">
+            <td height="30" bgcolor="white" font-size: 30px;>
+                <div class="index">
+                    <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">جبيهه</span></button>
+                </div> 
+                       
+        </td>
+            <td> <input type="text" class="form-control1" name="name" id="myinput" placeholder="    20M" size="5" style="font-weight: bold; color: black; "></td>
+            <td><input type="text" class="form-control1" name="name" id="myinput" placeholder="    1:00" size="5" style="font-weight: bold; color: black; "> </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">جبيهه</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">جبيهه</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">جبيهه</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">جبيهه</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">جبيهه</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">جبيهه</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">جبيهه</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">جبيهه</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">جبيهه</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 40px;">جبيهه</span></button>
+            </div>
+            </td>
+        </tr> 
+        <tr bgcolor="white" align="center">
+            <td height="30" bgcolor="white" font-size: 30px;>
+                <div class="index">
+                    <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 30px;">سيتي مول</span></button>
+                </div> 
+                       
+        </td>
+            <td> <input type="text" class="form-control1" name="name" id="myinput" placeholder="    20M" size="5" style="font-weight: bold; color: black; "></td>
+            <td><input type="text" class="form-control1" name="name" id="myinput" placeholder="    1:00" size="5" style="font-weight: bold; color: black; "> </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 30px;">سيتي مول</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 30px;">سيتي مول</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 30px;">سيتي مول</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 30px;">سيتي مول</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 30px;">سيتي مول</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 30px;">سيتي مول</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 30px;">سيتي مول</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 30px;">سيتي مول</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 30px;">سيتي مول</span></button>
+            </div>
+            </td>
+            <td><div class="index">
+                <button class="toggle-button skyblue large-button" onclick="toggleColor(this)">  <span style="font-size: 30px;">سيتي مول</span></button>
+            </div>
+            </td>
+        </tr> 
+    </table> 
+
+    
+   
+<table id="mytable">
+    <tr>
+      <td>
+        <div class= "note-box">
+        <label for="name" class="note-label" >Note:</label>
+        </div> 
+        <input type="text" class="form-control" name="name" id="myinput" placeholder="اكتب شو قلك الرخ" size="55" style="font-weight: bold; color: black; ">
+        <div class="text-next-to-table">
+            <p></p>
+          </div>
+      </td>
+      
+    </tr>
+</table>
+
+      
+<script>
+    function toggleColor(button) {
+        var row = button.closest("tr"); // Get the parent row of the button
+        var buttons = row.querySelectorAll("button"); // Get all buttons within the row
+    
+        if (button === buttons[0]) {
+            // Clicked on the first button in the row
+            if (button.classList.contains("red")) {
+                // Change the color of all buttons in the row to green
+                for (var i = 0; i < buttons.length; i++) {
+                    buttons[i].classList.remove("red");
+                    buttons[i].classList.add("green");
+                }
+            } else {
+                // Change the color of all buttons in the row to red
+                for (var i = 0; i < buttons.length; i++) {
+                    buttons[i].classList.remove("green");
+                    buttons[i].classList.add("red");
+                }
+            }
+        } else {
+            // Clicked on a button other than the first button
+            if (button.classList.contains("red")) {
+                // Change the color of the button to green
+                button.classList.remove("red");
+                button.classList.add("green");
+            } else {
+                // Change the color of the button to red
+                button.classList.remove("green");
+                button.classList.add("red");
+            }
+        }
+    }
+    </script>
+    
+
+
+
+</body>
+
+</html>
